@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var Codesurgeon = require('codesurgeon').Codesurgeon;
+
 var surgeon = new Codesurgeon();
 
 var path    = require('path');

@@ -22,7 +22,7 @@
   ],
   "devDependencies": {
     "api-easy": "0.4.x",
-    "codesurgeon": "https://github.com/hij1nx/codesurgeon/tarball/master",
+    "codesurgeon": "https://github.com/kenotron/codesurgeon/tarball/master",
     "colors": "1.0.x",
     "qunitjs": "1.9.x",
     "request": "2.49.x",
