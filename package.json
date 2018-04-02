@@ -1,12 +1,7 @@
 {
   "name": "director-fork",
   "description": "A client Side/Server Side Router",
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
-  "version": "1.2.8",
-  "maintainers": [
-    "hij1nx <paolo@nodejitsu.com>",
-    "beaugunderson <beau@beaugunderson.com>"
-  ],
+  "version": "1.2.9",
   "repository": {
     "type": "git",
     "url": "http://github.com/flatiron/director.git"

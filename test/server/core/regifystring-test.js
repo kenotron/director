@@ -112,6 +112,18 @@ vows.describe('director/core/regifyString').addBatch({
     'Should not match "/folder/abc" (the catchall regexp)': function(result) {
       assert.isFalse(result('/folder/abc'));
     }
+  },
+  'When using "/folder/:home"': {
+    topic: function() {
+      return testRoute('/folder/:home', callback);
+    },
+    'Should match "/folder/test"': function(result) {
+      assert.isTrue(result('/folder/test'));
+    },
+    'Should match "/folder/test@test.com"': function(result) {
+      debugger;
+      assert.isTrue(result('/folder/test@test.com'));
+    }
   }
 
 }).export(module);

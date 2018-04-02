@@ -1,7 +1,7 @@
 
 
 //
-// Generated on Tue Mar 13 2018 11:27:30 GMT-0700 (Pacific Daylight Time) by Charlie Robbins, Paolo Fragomeni & the Contributors (Using Codesurgeon).
+// Generated on Mon Apr 02 2018 09:36:17 GMT-0700 (Pacific Daylight Time) by Charlie Robbins, Paolo Fragomeni & the Contributors (Using Codesurgeon).
 // Version 1.2.8
 //
 
@@ -339,7 +339,7 @@ function paramifyString(str, params, mod) {
       }
     }
   }
-  return mod === str ? "([._a-zA-Z0-9-%()]+)" : mod;
+  return mod === str ? "([._a-zA-Z0-9-%()@]+)" : mod;
 }
 
 function regifyString(str, params) {
